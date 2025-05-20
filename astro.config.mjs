@@ -5,4 +5,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   base: '/howtoastro/',
   site: 'https://ferfalcon.github.io/howtoastro/',
+  output: 'static'
 });
