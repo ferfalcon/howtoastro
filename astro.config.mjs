@@ -3,7 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/howtoastro/',
-  site: 'https://ferfalcon.github.io/howtoastro/',
-  output: 'static'
+  site: 'https://ferfalcon.github.io',
+  base: 'howtoastro'
 });
